@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bergþór Þorvaldsson</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="aftur1.css">
+	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+</head>
+<body>
+<header>
+	<nav class="valmynd">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">*****</a></li>
+			<li><a href="#">*****</a></li>
+			<li><a href="#">Forms</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+		<h5 class="efrastrik"></h5>
+		<h5 class="nedrastrik">
+			<p>Bergþór Þorvaldsson</p>
+		</h5>
+
+
+	<section class="tafla">
+		<table>
+		<thead>
+			<tr>
+				<th scope="col" colspan="2">Item:</th>
+				<th scope="col">Qty:</th>
+				<th scope="col">Price:</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<strong class="fruit-title">Epli</strong>
+					<span class="text-offset"> frá Costa Rica</span>
+				</td>
+				<td class="item-lager">Á lager</td>
+				<td class="item-qty">4</td>
+				<td class="item-price">150 kr.</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong class="fruit-title">Appelsínur</strong>
+					<span class="text-offset"> frá Spáni </span>
+				</td>
+				<td class="item-lager">Ekki til</td>
+				<td class="item-qty">0</td>
+				<td class="item-price">200 kr.</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong class="fruit-title">Perur</strong>
+					<span class="text-offset"> frá Lettlandi</span>
+				</td>
+				<td class="item-lager">Á lager</td>
+				<td class="item-qty">3</td>
+				<td class="item-price">170 kr.</td>
+			</tr>
+
+			<tr>
+				<td>
+					<strong class="fruit-title">Gulrót</strong>
+					<span class="text-offset"> frá Íslandi</span>
+				</td>
+				<td class="item-lager">Á lager</td>
+				<td class="item-qty">9</td>
+				<td class="item-price">90 kr.</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr class="text-offset">
+				<td colspan="3">Samtals:</td>
+				<td>370 kr.</td>
+			</tr>
+			<tr class="text-offset">
+				<td colspan="3">Tax:</td>
+				<td>43 kr.</td>
+			</tr>
+			<tr>
+				<td colspan="3">Alls:</td>
+				<td>413 kr.</td>
+			</tr>
+		</tfoot>
+	</table>
+	</section>
+
+	<section class="form">
+		<form class="loginuser" action="/login" method="post">
+
+<fieldset>
+	<legend>Pöntunarform</legend>
+	<label for="Nafn">Nafn</label>
+		<input type="text" name="Nafn" placeholder="Fullt nafn" required="">
+		<br>
+		<label for="address">Heimilisfang</label>
+		<input type="text" name="address" placeholder="Heimilisfang" required="">
+		<br>
+		<label for="dags">Dagsetning</label>
+		<input type="date" name="dags">
+		<br>
+		<label for="email-address">Netfang</label>
+		<input type="email" name="email-address">
+		<br>
+		<label for="tel">Símanúmer</label>
+		<input type="tel" name="phone-number" required="" maxlength="7" pattern="\d{4}[\-]\d{4}">
+		<br>
+		<label for="deliver">Senda/Sækja</label>
+		<br>
+		<input type="radio" name="deliver" checked="">Senda
+		<input type="radio" name="deliver">Sækja
+		<br>
+		<textarea name="comment">Skildu eftir skilaboð</textarea>
+		<br>
+
+
+		<input class="val" type="checkbox" name="fruits" value="Epli" checked> Epli
+		<input class="val" type="checkbox" name="fruits" value="Appelsínur"> Appelsínur
+		<input class="val" type="checkbox" name="fruits" value="Gulrætur"> Gulrætur
+		<input class="val" type="checkbox" name="fruits" value="Perur"> Perur
+		<br>
+		<label for="magn">Magn</label>
+		<select name="magn">
+			<option value="magn" placeholder="magn" selected=""></option>
+			<option value="magn">1</option>
+			<option value="magn">2</option>
+			<option value="magn">3</option>
+			<option value="magn">4</option>
+			<option value="magn">5</option>
+		</select>
+		<br>
+		<button type="submit">Panta</button>
+		</form>
+	</section>
+
+
+
+
+
+
+
+</main>
+	
+
+</body>
+</html>
